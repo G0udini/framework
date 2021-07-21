@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-2ficzeamon%crw7(ytr_e1k#rbh2)xeks(+9y&yi#_!cwbq4d*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['thawing-journey-37743.herokuapp.com']
+ALLOWED_HOSTS = ['desolate-peak-02010.herokuapp.com']
 
 
 # Application definition
