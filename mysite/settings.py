@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-2ficzeamon%crw7(ytr_e1k#rbh2)xeks(+9y&yi#_!cwbq4d*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['desolate-peak-02010.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['desolate-peak-02010.herokuapp.com', '127.0.0.1', '0.0.0.0']
 
 
 # Application definition
@@ -78,13 +78,13 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'voting',
-        'USER': 'rus13',
-        'PASSWORD': 'rus13',
-        'HOST': 'localhost'
+        'NAME': 'de5to55669u2ae',
+        'USER': 'zlnbkrpgviytye',
+        'PASSWORD': 'bdbdd716d1a86800a637d6b1851b83faa5f2bae252baf5c67585824c452386a0',
+        'HOST': 'ec2-44-194-145-230.compute-1.amazonaws.com',
+        'PORT': '5432'
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
